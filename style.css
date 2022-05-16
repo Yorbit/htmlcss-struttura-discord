@@ -47,3 +47,19 @@ main {
     flex-direction: column;
     align-items: center;
 }
+
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    background-color: green;
+    height: 500px;
+    width: 20%;
+    border: 1px solid;
+}
+
+.grow {
+    flex-grow: 1;
+}
